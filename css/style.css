@@ -7,3 +7,11 @@
     background-size: cover;
     background-blend-mode: multiply;
   }
+
+  .sezione-biografia {
+    min-height: 30rem;
+  }
+
+  .sezione-biografia .testo {
+      padding: 3rem;
+  }
