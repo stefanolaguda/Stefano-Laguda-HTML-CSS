@@ -8,10 +8,30 @@
     background-blend-mode: multiply;
   }
 
-  .sezione-biografia {
+  #foto-personale {
+    background-image: url(../img/foto-personale.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: lightgrey;
     min-height: 30rem;
+
+  }
+  .sezione-biografia {
+    min-height: 20rem;
   }
 
   .sezione-biografia .testo {
       padding: 3rem;
+  }
+
+  .sezione-skills .immagine {
+      background-image: url(../img/tastiera.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 30rem;
+  }
+
+  div .in-corso {
+      display: block;
   }
