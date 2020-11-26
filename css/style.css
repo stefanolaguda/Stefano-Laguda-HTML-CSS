@@ -1,0 +1,9 @@
+.head-banner {
+    background-color: #7b7474;
+    padding-top:8rem;
+    padding-bottom: 8rem;
+    background-image: url(https://c.wallhere.com/photos/3f/cf/5472x3648_px_Code_coffee_computer_Computer_Screen_Keyboards_Languages_laptop-1288593.jpg!d);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
