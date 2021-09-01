@@ -1,0 +1,50 @@
+/* HHEADER */
+.head-banner {
+    background-color: #7b7474;
+    padding-top:8rem;
+    padding-bottom: 8rem;
+    background-image: url(../img/header.jpg!d);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+
+  /* SEZIONE BIOGRAFIA */
+  #foto-personale {
+    background-image: url(../img/foto-personale.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: lightgrey;
+    min-height: 30rem;
+
+  }
+  .sezione-biografia {
+    min-height: 20rem;
+  }
+
+  .sezione-biografia .testo {
+      padding: 3rem;
+  }
+
+  /* SEZIONE SKILLS */
+  .sezione-skills .immagine {
+      background-image: url(../img/studio2.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 30rem;
+  }
+
+
+  #titolo {
+      font-size: xx-large;
+  }
+
+  /* SEZIONE CONTATTI SOCIALI */
+  .fas {
+      font-size: xx-large;
+  }
+
+  .fab {
+    font-size: large;
+}
