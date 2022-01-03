@@ -1,50 +1,60 @@
 /* HHEADER */
 .head-banner {
-    background-color: #7b7474;
-    padding-top:8rem;
-    padding-bottom: 8rem;
-    background-image: url(../img/header.jpg!d);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-  }
+  background-color: #7b7474;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url(../img/header.jpg!d);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
 
-  /* SEZIONE BIOGRAFIA */
-  #foto-personale {
-    background-image: url(../img/foto-personale.jpg);
-    background-position: center;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: lightgrey;
-    min-height: 30rem;
+/* SEZIONE BIOGRAFIA */
+#personal-photo {
+  background-image: url(../img/personal_photo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: lightgrey;
+  min-height: 30rem;
+}
+.biography-section {
+  min-height: 20rem;
+}
 
-  }
-  .sezione-biografia {
-    min-height: 20rem;
-  }
+.biography-section .txt {
+  padding: 3rem;
+}
 
-  .sezione-biografia .testo {
-      padding: 3rem;
-  }
+/* SEZIONE SKILLS */
+.skills-section .img {
+  background-image: url(../img/studio2.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 30rem;
+}
 
-  /* SEZIONE SKILLS */
-  .sezione-skills .immagine {
-      background-image: url(../img/studio2.jpg);
-      background-position: center;
-      background-size: cover;
-      min-height: 30rem;
-  }
+#title {
+  font-size: xx-large;
+}
 
+/* SECTION PERSONAL PROJECT */
 
-  #titolo {
-      font-size: xx-large;
-  }
+.title-personal-section {
+  display: block;
+  text-align: center;
+  margin-bottom: 4rem;
+}
 
-  /* SEZIONE CONTATTI SOCIALI */
-  .fas {
-      font-size: xx-large;
-  }
+.card-banner {
+  display: flex;
+  flex-direction: row;
+}
+/* SEZIONE CONTATTI SOCIALI */
+.fas {
+  font-size: xx-large;
+}
 
-  .fab {
-    font-size: large;
+.fab {
+  font-size: large;
 }
